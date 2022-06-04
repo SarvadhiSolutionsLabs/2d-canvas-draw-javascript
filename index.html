@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Draw Polygon in 2D Canvas</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="1200"></canvas>
+    <div class="action-buttons">
+      <button
+        class="btn"
+        id="btn_load_sample"
+        onclick="handleLoadSamplePolygon()"
+      >
+        Load Sample Polygon
+      </button>
+      <button class="btn" id="btn_undo" onclick="handleUndo()">Undo</button>
+      <button class="btn" id="btn_redo" onclick="handleRedo()">Redo</button>
+      <button class="btn" id="btn_reset" onclick="handleReset()">Reset</button>
+    </div>
+  </body>
+</html>
