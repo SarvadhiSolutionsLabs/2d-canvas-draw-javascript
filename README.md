@@ -11,5 +11,5 @@ If you want to see any sample polygon then we have functionality to Load Sample 
 - script.js: It contains the main code for all functionality for draw polygon, undo, redo, reset etc.
 
 
-**Find Live Demo here:** https://2d-canvas-draw-javascript.vercel.app/
+**Check out live demo here:** https://2d-canvas-draw-javascript.vercel.app/
 
