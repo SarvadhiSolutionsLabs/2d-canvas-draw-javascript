@@ -261,10 +261,6 @@ function handleActionBtnValidation() {
   var isDisableRedo = redoLines.length === 0 ? true : false;
   var isDisableReset = isDisableUndo;
 
-  console.log("isDisableUndo--", isDisableUndo);
-  console.log("isDisableRedo--", isDisableRedo);
-  console.log("isDisableReset--", isDisableReset);
-
   document.getElementById("btn_undo").disabled = isDisableUndo;
   document.getElementById("btn_redo").disabled = isDisableRedo;
   document.getElementById("btn_reset").disabled = isDisableReset;
